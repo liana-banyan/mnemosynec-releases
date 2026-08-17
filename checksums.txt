@@ -7,4 +7,9 @@ b7122e9a986e7b1cd4e6b480c9129a6805f32b383b827e2ecc1a67e7e071541c  MnemosyneC-Set
 # build commit: 61cb159b1f3419e410fa69ead1ec7e046ea1c0f9 (mnemosyne HEAD, D-BP156-M0-016) · build timestamp: 2026-08-17T01:52:48Z
 5802ea55dd76519dcab2ad372e84c3792127b29163bb57b1b2c4d420d44254be  MnemosyneC-Lean-Setup-0.9.23.exe
 # build commit: 61cb159b1f3419e410fa69ead1ec7e046ea1c0f9 (mnemosyne HEAD, D-BP156-M0-016) · build timestamp: 2026-08-17T01:51:21Z
-# NOTE: both 0.9.23 assets above were cut from the same source commit (61cb159b), which includes the mesh commits 1cc24b8f (inbound relay listener) and 61cb159b (send-path fix and poll race-guard) required for M3 mesh participation.
+# NOTE: both 0.9.23 assets above were cut from the same source commit (61cb159b), which includes the mesh commits 1cc24b8f (inbound relay listener) and 61cb159b (send-path fix and poll race-guard) required for M3 mesh participation. SUPERSEDED by v0.9.24: 0.9.23 was cut before the mesh reply leg (c9543f80) landed, so Leg B of the mesh reply protocol cannot close on it.
+56da30eae9dc531c03062fc4d07e2224ff58fab90633db818ef92edfdbd938f0  MnemosyneC-Setup-0.9.24.exe
+# build commit: 0e8352ce347fb9ab210056f21197e62669c78c72 (mnemosyne HEAD, D-BP156-004) · build timestamp: 2026-08-17T19:44:01.878Z
+fa16ea2bc4a45cdad846a2a14783d815819b4f10dc28cd7a73806b6209b47632  MnemosyneC-Lean-Setup-0.9.24.exe
+# build commit: 0e8352ce347fb9ab210056f21197e62669c78c72 (mnemosyne HEAD, D-BP156-004) · build timestamp: 2026-08-17T19:45:30Z (approx, electron-builder does not emit a lean latest.yml with a releaseDate; timestamp is this dispatch's own measurement of build completion)
+# NOTE: both 0.9.24 assets above were cut from the same source commit (0e8352ce), which carries all five required mesh commits (74703251, 1cc24b8f, 61cb159b, c9543f80 the reply leg, 40c55351 the sender entry point) plus 0e8352ce (dev:cdp script). This is the first build to carry the reply leg -- the whole point of this cut.
