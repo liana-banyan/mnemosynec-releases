@@ -1,1 +1,5 @@
 b3858090219cf24eed63311f1f836a5df57c9f0a7f4b4a14a58bae327d2e61db  MnemosyneC-Setup-0.9.22.exe
+# build commit: NOT ESTABLISHED (asset predates this ledger entry, BP155 build session not located) · build timestamp: NOT ESTABLISHED (release asset created 2026-08-16T22:32:15Z per GitHub, not the same as the build timestamp)
+be0296853027c0dc436a9b6c3ba5ac9145820670319261c7cea71d086179543d  MnemosyneC-Lean-Setup-0.9.22.exe
+# build commit: b5d77337ae9ebd4dc7015c528ad133181e1c170f (mnemosyne HEAD, D-BP155-054) · build timestamp: 2026-08-17T00:57:44Z
+# NOTE: the Complete and Lean assets above are both labeled 0.9.22 but were cut from different source states -- the Lean build commit is NEWER than whatever commit produced the Complete asset (source commit not established). Do not assume source parity between the two.
