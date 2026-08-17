@@ -3,3 +3,8 @@ b3858090219cf24eed63311f1f836a5df57c9f0a7f4b4a14a58bae327d2e61db  MnemosyneC-Set
 be0296853027c0dc436a9b6c3ba5ac9145820670319261c7cea71d086179543d  MnemosyneC-Lean-Setup-0.9.22.exe
 # build commit: b5d77337ae9ebd4dc7015c528ad133181e1c170f (mnemosyne HEAD, D-BP155-054) · build timestamp: 2026-08-17T00:57:44Z
 # NOTE: the Complete and Lean assets above are both labeled 0.9.22 but were cut from different source states -- the Lean build commit is NEWER than whatever commit produced the Complete asset (source commit not established). Do not assume source parity between the two.
+b7122e9a986e7b1cd4e6b480c9129a6805f32b383b827e2ecc1a67e7e071541c  MnemosyneC-Setup-0.9.23.exe
+# build commit: 61cb159b1f3419e410fa69ead1ec7e046ea1c0f9 (mnemosyne HEAD, D-BP156-M0-016) · build timestamp: 2026-08-17T01:52:48Z
+5802ea55dd76519dcab2ad372e84c3792127b29163bb57b1b2c4d420d44254be  MnemosyneC-Lean-Setup-0.9.23.exe
+# build commit: 61cb159b1f3419e410fa69ead1ec7e046ea1c0f9 (mnemosyne HEAD, D-BP156-M0-016) · build timestamp: 2026-08-17T01:51:21Z
+# NOTE: both 0.9.23 assets above were cut from the same source commit (61cb159b), which includes the mesh commits 1cc24b8f (inbound relay listener) and 61cb159b (send-path fix and poll race-guard) required for M3 mesh participation.
